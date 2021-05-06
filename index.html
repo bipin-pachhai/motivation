@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Guessing Game</title>
+        <script type='module' src='scripts/app.js'></script>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+         <!-- Index page -->
+         <div class="position-relative text-black container text-center h-75 d-flex flex-column justify-content-center" style="font-family:'Verdana'">
+            <h1 class="m-2">Get Daily Dose of Motivation!! </h1><br>
+            <div id = "form m-2"> 
+                <button class='m-2' id='submit-button'> GENERATE FOR TODAY! </button><br/>
+            </div>
+            <br/>
+            
+            <div id="answer"></div>
+              <ul>
+                  <h2>Current Advice</h2>
+                  <li id = "current"></li>
+                  <br/>
+                  <h2> Previous Advice</h2>
+                  <li id ="previous"></li>
+              </ul>
+            </div>
+
+         <!-- Bootstrap Bundle with Popper -->
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+         
+    </body>
+</html>
